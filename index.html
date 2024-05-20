@@ -18,45 +18,81 @@
 			<div class="slides">
 				<style>
 					.row {
-						display: flex;
-						align-items: center;
-						justify-content: center;
+					  display: flex;
+					  align-items: center;
+					  justify-content: center;
 					}
 					.row img {
-						margin: 0 10px;
-					}
-					.row p {
-						margin: 0 10px;
+					  margin: 0 10px;
 					}
 					.column {
-           				display: flex;
-            			flex-direction: column;
-           				align-items: center;
-            			justify-content: center;
-           				
-       				}
-        			.column p {
-           				 margin:  0 10px; 
-        			}
-				</style>
-				<!---->
-				<section >
-					<div class="row">
-						<img src="https://th.bing.com/th/id/OIP.oYhAFNlORa5YcgcdwtcwPQAAAA?rs=1&pid=ImgDetMain" width="200" height="200">
-						<div class="column">
-							<p><small>RÉPUBLIQUE TUNISIENNE</small></p>
-							<p><small>MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET </small></p>
-							<p><small>DE LA RECHERCHE SCIENTIFIQUE </small></p>
-							<p><small>UNIVERSITE DE JENDOUBA </small></p>
-							<p><small>Institut Supérieur d’Informatique de Kef</small></p>
-						</div>
-						<img src="https://th.bing.com/th/id/R.376199958ae7722e3a215c6957afeaf4?rik=VZZwd0kJXnuOsg&riu=http%3a%2f%2fwww.uj.rnu.tn%2fFr%2fimage.php%3fid%3d7182&ehk=IsQHYvCgmTOR93mEaVXYWmmmKbZSrDjPpRp40bLZ3yc%3d&risl=&pid=ImgRaw&r=0" width="200" height="200">
-					</div>
+					  display: flex;
+					  flex-direction: column;
+					  align-items: center;
+					  justify-content: center;
+					}
+					.column p {
+					  margin: 0 10px;
+					  font-size: 12px; /* تصغير حجم النص */
+					}
+					.header {
+					  text-align: center;
+					}
+					.header h4 {
+					  color: rgb(245, 144, 81);
+					}
 					
-				    <h4 style="color: rgb(245, 144, 81);">Conception et réalisation d'un système d'aide à la détection de la dyslexie avec IA</h4>
-					<pre><strong>Réalisé par :</strong> <small>Mohamed Aziz Zammel</small> <strong>Encadré par :</strong> <small>Dr. Ibtissem CHERNI</small> <strong>Devant le Jury :</strong> <small>Dr. Akram EL KEFI ,Mr. Khalil Hermi</small> </pre>
+					.custom-pre {
+  						text-align: left;
+  						font-size: 14px;
+  						line-height: 1.6;
+  						font-family: 'Arial', sans-serif;
+					}
 
-				</section>
+					.custom-pre .title {
+ 						display: inline-block;
+  						width: 150px;
+  						font-weight: bold;
+					}
+
+					.custom-pre .content {
+ 						 display: inline-block;
+ 						 font-size: 14px;
+  						color: #333;
+					}
+					
+
+
+
+				  </style>
+				</head>
+				<body>
+				  <div class="reveal">
+					<div class="slides">
+					  <!-- Title Slide -->
+					  <section>
+						<div class="header">
+						  <div class="row">
+							<img src="https://th.bing.com/th/id/OIP.oYhAFNlORa5YcgcdwtcwPQAAAA?rs=1&pid=ImgDetMain" width="200" height="200">
+							<div class="column">
+							  <p><small>RÉPUBLIQUE TUNISIENNE</small></p>
+							  <p><small>MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET </small></p>
+							  <p><small>DE LA RECHERCHE SCIENTIFIQUE </small></p>
+							  <p><small>UNIVERSITE DE JENDOUBA </small></p>
+							  <p><small>Institut Supérieur d’Informatique de Kef</small></p>
+							</div>
+							<img src="https://th.bing.com/th/id/R.376199958ae7722e3a215c6957afeaf4?rik=VZZwd0kJXnuOsg&riu=http%3a%2f%2fwww.uj.rnu.tn%2fFr%2fimage.php%3fid%3d7182&ehk=IsQHYvCgmTOR93mEaVXYWmmmKbZSrDjPpRp40bLZ3yc%3d&risl=&pid=ImgRaw&r=0" width="200" height="200">
+						  </div>
+						  
+						  <h4>Conception et réalisation d'un système d'aide à la détection de la dyslexie avec IA</h4>
+						  <pre class="custom-pre">
+							<span class="title">Réalisé par :</span> <span class="content">Mohamed Aziz Zammel</span><br>
+							<span class="title">Encadré par :</span> <span class="content">Dr. Ibtissem CHERNI</span><br>
+							<span class="title">Devant le Jury :</span> <span class="content">Dr. Akram EL KEFI , Mr. Khalil Hermi</span>
+						  </pre>
+						  
+						</div>
+					  </section>
 				
 				<style>
 					.fragment.blur {
@@ -79,8 +115,13 @@
 					
 				<!--Introduction-->
 				<section>
-					<section><h2><strong>1</strong> Introduction</h2></section>
 					<section>
+						<h2><strong>1</strong> Introduction</h2>
+						<p>1</p>
+					</section>
+					
+					<section>
+						
 						<p style="text-align: left;">1.1. Contexte du projet</p>
 						<div class="row">
 							<p>
@@ -88,98 +129,164 @@
 							</p>
 							<img src="/images/animation.gif"  >
 						</div>
+						<p>2</p>
 					</section>
 					<section>
 						<p style="text-align: left;">1.2. Organisme d'accueil</p>
-						
+						<p>3</p>
 					</section>
 				</section>
 				<!--Étude préalable du projet-->
+				<style>
+					.image-row {
+ 						 display: flex;
+ 						 justify-content: space-around; /* Espace les images de manière égale */
+ 						 align-items: flex-start; /* Aligne les images en haut */
+  						margin: 20px 0; /* Ajoute de l'espacement en haut et en bas de la rangée d'images */
+						}
+
+					.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px; /* Ajoute de l'espacement entre les conteneurs d'image */
+					}
+
+					.image-container img {
+ 						 margin-bottom: 5px; /* Espacement entre l'image et le texte descriptif */
+					}
+
+					.image-container p {
+  text-align: center; /* Centre le texte descriptif sous l'image */
+  font-size: 30px; /* Taille de la police pour le texte descriptif */
+  color: #333; /* Couleur du texte descriptif */
+					}
+				</style>
 				<section>
-					<section><h2>2 Étude préalable du projet</h2></section>
+					<section>
+						<h2>2 Étude préalable du projet</h2>
+						<p>4</p>
+					</section>
 					<section>
 						<p style="text-align: left;">2.1. Description de l’existant</p>
-						<img src="https://www.engineeringforchange.org/wp-content/uploads/2019/09/Sghartoon.png">
-						<img src="/images/medical-report.png" width="400" height="400">
-						<p><small>Sghartoon / passer un test sur papier chez un orthophoniste</small></p>
+						<div class="image-row">
+						  <div class="image-container">
+							<img src="https://www.engineeringforchange.org/wp-content/uploads/2019/09/Sghartoon.png" width="300" height="300" alt="Sghartoon Image">
+							<p>Sghartoon </p>
+						  </div>
+						  <div class="image-container">
+							<img src="/images/medical-report.png" width="300" height="300" alt="Medical Report">
+							<p> passer un test sur papier chez un orthophoniste </p>
+						  </div>
+						</div>
+						<p>5</p>
+					  </section>
+					  
+					  
+					<section>
+						<p style="text-align: left;">2.2. Critique de l’existant</p>
+						<div class="image-row">
+						  <div class="image-container">
+							<img src="/images/school.png"  width="300" height="300">
+							<p>Il faut être inscrit dans une école privée en collaboration avec Sghartoon</p>
+						  </div>
+						  <div class="image-container">
+							<img src="/images/saving.png" width="300" height="300">
+							<p>La visite chez un orthophoniste est coûteuse en terme de temps, d'argent et effort de déplassement </p>
+						  </div>
+						</div>
+						<p>6</p>
 						
 					</section>
 					<section>
-						<p style="text-align: left;">2.2. Critique de l’existant</p>
-						<img src="https://www.flaticon.com/free-icon/school_8074788?term=school&page=1&position=4&origin=search&related_id=8074788" width="200" height="200">
-						<img src="/images/saving.png" width="200" height="200">
-						<p><small>Il faut être inscrit dans une école privée en collaboration avec Sghartoon</small></p>
-						<p><small>La visite chez un orthophoniste est coûteuse en terme de temps, d'argent et effort de déplassement</small></p>
-					</section>
-					<section>
 						<p style="text-align: left;">2.3. Solution proposée</p>
-						<img src="/images/free.png" width="200" height="200">
-						<img src="/images/world-grid.png" width="200" height="200">
-						<img src="/images/diversity.png" width="200" height="200">
-						<img src="/images/telemedicine.png" width="200" height="200">
-						<p><small>Sollution gratuite</small></p>
-						<p><small>En ligne (pas de déplassement )</small></p>
-						<p><small>Ouverte à tout le monde</small></p>
-						<p><small>Possibilité de rendez-vous en ligne avec un orthophoniste </small></p>
+						<div class="image-row">
+							<div class="image-container">
+								<img src="/images/free.png" width="200" height="200">
+							    <p><small>Sollution gratuite</small></p>
+							</div>
+							<div class="image-container">
+								<img src="/images/world-grid.png" width="200" height="200">
+							    <p><small>En ligne (pas de déplassement )</small></p>
+							</div>
+							<div class="image-container">
+								<img src="/images/diversity.png" width="300" height="200">
+							    <p><small>Ouverte à tout le monde</small></p>
+							</div>
+							<div class="image-container">
+								<img src="/images/telemedicine.png" width="200" height="200">
+							    <p><small>Possibilité de rendez-vous en ligne avec un orthophoniste </small></p>
+							</div>
+						  </div>
+						  <p>7</p>
 					</section>
 					<section>
 						<p style="text-align: left;">2.4. Méthode adoptée</p>
 						<img src="https://pyxis-tech.com/app/uploads/2015/09/wp_wp_graf_scrum_200_fr.jpg">
 						<p><small>Product Backlog -> Sprint Planning -> Sprint -> Daily Scrum -> Sprint Review -> Sprint Retrospective</small></p>
+						<p>8</p>
 						
 					</section>
 				</section>
 				<!--Analyse et Conception-->
 				<section>
-					<section><h2>3 Analyse et Conception</h2></section>
+					<section>
+						<h2>3 Analyse et Conception</h2>
+						<p>9</p>
+					</section>
 					<section>
 						<p style="text-align: left;">3.1. Besoins fonctionnels</p>
-						<div class="row">
-							<img src="/images/boy.png" width="200" height="200">
-							<img src="/images/medical-team.png" width="200" height="200">
-							<img src="/images/software-engineer.png" width="200" height="200">
-						</div>
-						<ul>
-							<li>No order here</li>
-							<li>Or here</li>
-							<li>Or here</li>
-							<li>Or here</li>
-						</ul>
-						<ul>
-							<li>No order here</li>
-							<li>Or here</li>
-							<li>Or here</li>
-							<li>Or here</li>
-						</ul>
-						<ul>
-							<li>No order here</li>
-							<li>Or here</li>
-							<li>Or here</li>
-							<li>Or here</li>
-						</ul>
+						<div class="image-row">
+							<div class="image-container">
+								<img src="/images/boy.png" width="200" height="200">
+							    <p><small><strong>Patients :</strong> Passer des tests de dyslexie, consulter les résultats, prendre des rendez-vous et gérer leur profil.</small></p>
+							</div>
+							<div class="image-container">
+								<img src="/images/medical-team.png" width="200" height="200">
+							    <p><small><strong>Orthophonistes :</strong>  Accepter les demandes de rendez-vous, insérer des liens pour les consultations en ligne, et consulter la liste de leurs patients et de leurs tests.</small></p>
+							</div>
+							<div class="image-container">
+								<img src="/images/software-engineer.png" width="200" height="200">
+							    <p><small><strong>Administrateur :</strong>  Créer des comptes pour les orthophonistes et accéder aux données globales du site : tests réalisés, patients inscrits et rendez-vous pris.</small></p>
+							</div>
+							
+						  </div>
+						  
+						
+						<p>10</p>
 					</section>
 					<section>
 						<p style="text-align: left;">3.2. Besoins non fonctionnels</p>
 						<img src="/images/fonctionnels.png" width="500" height="500">
+						<p>11</p>
 					</section>
 					<section>
-						<p style="text-align: left;">3.3. Planification des sprints</p>
-						<p>Planification des sprints</p>
-						<img src="/images/sprint.png" width="400" height="400">
+						<p style="text-align: left; margin: 0;">3.3. Planification des sprints</p>
+						
+							<img src="/images/sprint.png"  height="500" style="margin: 0; ">
+							<p style="margin: 0;">12</p>
+						
 					</section>
+					
 					<section>
-						<p style="text-align: left;">3.4. Diagramme de cas d’utilisation global</p>
-						<img src="/images/PFE-use case.drawio.png" width="500" height="500">
+						<p style="text-align: left; margin: 0;">3.4. Diagramme de cas d’utilisation global</p>
+						<img src="/images/PFE-use case.drawio.png" width="700" height="600" style="margin: 0; ">
+						<p style="margin: 0; font-size: 20px;">13</p>
+						
 					</section>
 					<section>
 						<p style="text-align: left;">3.5. Diagramme de classes global</p>
-						<img src="/images/PFE-d.classes.drawio.png" width="500" height="500">
+						<img src="/images/PFE-d.classes.drawio.png" width="700" height="600">
+						<p>14</p>
 						
 					</section>
 				</section>
 				<!--Réalisation-->
 				<section>
-					<section><h2>4 Réalisation</h2></section>
+					<section>
+						<h2>4 Réalisation</h2>
+						<p>15</p>
+					</section>
 					<section>
 						<p style="text-align: left;">4.1. Environnements de réalisation</p>
 						<div class="r-stack">
@@ -198,27 +305,50 @@
 							<img class="fragment" src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/c512beba-df9c-4010-9321-18f228825c7f.png?ixlib=react-9.0.2&ch=Width%2CDPR&auto=format&w=5500" width="300" height="450">
 							<img class="fragment" src="https://th.bing.com/th/id/R.1667713c2738e66eb1cef103bcdd2f36?rik=gQMlLejulRprJQ&pid=ImgRaw&r=0" width="400" height="400">
 						  </div>
+						<p>16</p>
 					</section>
-					<section>4.2. Architecture</section>
 					<section>
-						<p style="text-align: left;">4.3. Démonstration</p>
-						<video controls >
-							<source src="" type="video/mp4">
-						</video>
+						<p style="text-align: left;">4.2. Architecture</p>
+						<p>17</p>
+						
+					</section>
+					<section>
+						<p style="text-align: left;">4.3. Partie Intelligence Artificielle</p>
+						
+						<p>18</p>
+						
+					</section>
+					<section>
+						<p style="text-align: left;">4.4. Démonstration</p>
+						<p>19</p>
+						
 					</section>
 					
 				</section>
 				<!--Conclusion et Perspectives-->
 				<section>
-					<section><h2>5 Conclusion & Perspectives</h2></section>
+					<section>
+						<h2>5 Conclusion ET Perspectives</h2>
+						<p>20</p>
+					</section>
 					<section>
 						<p style="text-align: left;">5.1. Conclusion</p>
-						<ul>
-							<li><p>Application mobile pour enregistrer les garanties</p></li>
-							<li><p>Application mobile pour enregistrer les garanties</p></li>
-							<li><p>Application mobile pour enregistrer les garanties</p></li>
-						</ul>
-						
+						<div class="image-row">
+							<div class="image-container">
+								<img src="/images/boy.png" width="200" height="200">
+							    <p><small><strong>Objectif atteint :</strong>  Création d'une application web efficace pour le dépistage de la dyslexie, avec un modèle IA performant et une API intégrée.</small></p>
+							</div>
+							<div class="image-container">
+								<img src="/images/medical-team.png" width="200" height="200">
+							    <p><small><strong>Collecte et traitement des données :</strong>   Utilisation de 100 réponses collectées pour entraîner le modèle IA, démontrant une précision satisfaisante dans les tests.</small></p>
+							</div>
+							<div class="image-container">
+								<img src="/images/software-engineer.png" width="200" height="200">
+							    <p><small><strong>Utilité pratique :</strong>   Outil intuitif et précieux pour les orthophonistes et les parents, facilitant la gestion des tests et des résultats.</small></p>
+							</div>
+							
+						  </div>
+						<p>21</p>
 					</section>
 					<section>
 						<p style="text-align: left;">5.2. Perspectives</p>
@@ -227,29 +357,18 @@
 							<li><p>Application mobile pour enregistrer les garanties</p></li>
 							<li><p>Application mobile pour enregistrer les garanties</p></li>
 						</ul>
-						
+						<p>22</p>
 					</section>
 				</section>
 
 				<!--Merci-->
-				<section style="text-align: left;">
-					<h1>Merci</h1>
-					<p>
+				<section >
+					<h1 style="text-align: left;">Merci</h1>
+					<p style="text-align: left;">
 						<small>pour votre attention</small>
 					</p>
+					<p>23</p>
 				</section>
-
-				
-
-
-				
-
-				
-					
-			
-					
-				
-				
 				
 			</div>
 		</div>
