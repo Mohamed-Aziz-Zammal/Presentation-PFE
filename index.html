@@ -17,10 +17,16 @@
 		<div class="reveal">
 			<div class="slides">
 				<style>
+					.reveal{
+						width: 100%;
+					}
+					.slides{
+						width: 95% !important;
+					}
 					.row {
 					  display: flex;
 					  align-items: center;
-					  justify-content: center;
+					  justify-content: space-between;
 					}
 					.row img {
 					  margin: 0 10px;
@@ -33,21 +39,29 @@
 					}
 					.column p {
 					  margin: 0 10px;
-					  font-size: 12px; /* تصغير حجم النص */
+					  font-size: 30px; /* تصغير حجم النص */
+					}
+					.Hsection{
+						height: 100%;
 					}
 					.header {
-					  text-align: center;
+						display: flex;
+						flex-direction: column;
+						justify-content: space-evenly;
+					    text-align: center;
+					    height: 100% !important;
 					}
 					.header h4 {
 					  color: rgb(245, 144, 81);
 					}
 					
 					.custom-pre {
-  						text-align: left;
+  						text-align: center;
   						font-size: 14px;
   						line-height: 1.6;
   						font-family: 'Arial', sans-serif;
 					}
+					
 
 					.custom-pre .title {
  						display: inline-block;
@@ -57,8 +71,8 @@
 					}
 
 					.custom-pre .content {
- 						 display: inline-block;
- 						 font-size: 14px;
+ 						display: inline-block;
+ 						font-size: 14px;
   						color: #333;
 					}
 					
@@ -71,14 +85,14 @@
 				  <div class="reveal">
 					<div class="slides">
 					  <!-- Title Slide -->
-					  <section>
+					  <section class="Hsection">
 						<div class="header">
 						  <div class="row">
 							<img src="https://th.bing.com/th/id/OIP.oYhAFNlORa5YcgcdwtcwPQAAAA?rs=1&pid=ImgDetMain" width="200" height="200">
 							<div class="column">
 							  <p><small>RÉPUBLIQUE TUNISIENNE</small></p>
-							  <p><small>MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET </small></p>
-							  <p><small>DE LA RECHERCHE SCIENTIFIQUE </small></p>
+							  <p><small>MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE SCIENTIFIQUE </small></p>
+							  
 							  <p><small>UNIVERSITE DE JENDOUBA </small></p>
 							  <p><small>Institut Supérieur d’Informatique de Kef</small></p>
 							</div>
@@ -86,11 +100,13 @@
 						  </div>
 						  
 						  <h4>Conception et réalisation d'un système d'aide à la détection de la dyslexie avec IA</h4>
-						  <pre class="custom-pre">
+
+
+						  <p class="custom-pre">
 							<span class="title">Réalisé par :</span> <span class="content">Mohamed Aziz Zammel</span><br>
 							<span class="title">Encadré par :</span> <span class="content">Dr. Ibtissem CHERNI</span><br>
 							<span class="title">Devant le Jury :</span> <span class="content">Dr. Akram EL KEFI , Mr. Khalil Hermi</span>
-						  </pre>
+						  </p>
 						  
 						</div>
 					  </section>
@@ -112,13 +128,23 @@
 					<p class="fragment custom blur"><strong>4</strong> Réalisation</p>
 					<p class="fragment custom blur"><strong>5</strong> Conclusion et Perspectives</p>
 				</section>
-				
+				<style>
+					.nb{
+						margin: 0;
+						font-size: 20px;
+						
+					}
+				</style>
 					
 				<!--Introduction-->
 				<section>
 					<section>
+						<div style="width: 200px; height: 200px;"></div>
 						<h2><strong>1</strong> Introduction</h2>
-						<p>1</p>
+						
+						<div style="width: 200px; height: 300px;"></div>
+
+						<p class="nb">1</p>
 					</section>
 					
 					<section>
@@ -130,11 +156,11 @@
 							</p>
 							<img src="https://i.pinimg.com/736x/f6/e1/6c/f6e16cd6105149e93147e3b5f6ba623a.jpg"  >
 						</div>
-						<p>2</p>
+						<p class="nb">2</p>
 					</section>
 					<section>
 						<p style="text-align: left;">1.2. Organisme d'accueil</p>
-						<p>3</p>
+						<p class="nb">3</p>
 					</section>
 				</section>
 				<!--Étude préalable du projet-->
@@ -147,10 +173,10 @@
 						}
 
 					.image-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 10px; /* Ajoute de l'espacement entre les conteneurs d'image */
+  						display: flex;
+  						flex-direction: column;
+  						align-items: center;
+ 						margin: 0 10px; /* Ajoute de l'espacement entre les conteneurs d'image */
 					}
 
 					.image-container img {
@@ -158,15 +184,17 @@
 					}
 
 					.image-container p {
-  text-align: center; /* Centre le texte descriptif sous l'image */
-  font-size: 30px; /* Taille de la police pour le texte descriptif */
-  color: #333; /* Couleur du texte descriptif */
+  						text-align: center; /* Centre le texte descriptif sous l'image */
+  						font-size: 30px; /* Taille de la police pour le texte descriptif */
+  						color: #333; /* Couleur du texte descriptif */
 					}
 				</style>
 				<section>
 					<section>
+						<div style="width: 200px; height: 200px;"></div>
 						<h2>2 Étude préalable du projet</h2>
-						<p>4</p>
+						<div style="width: 200px; height: 300px;"></div>
+						<p class="nb">4</p>
 					</section>
 					<section>
 						<p style="text-align: left;">2.1. Description de l’existant</p>
@@ -180,7 +208,7 @@
 							<p> passer un test sur papier chez un orthophoniste </p>
 						  </div>
 						</div>
-						<p>5</p>
+						<p class="nb">5</p>
 					  </section>
 					  
 					  
@@ -196,7 +224,7 @@
 							<p>La visite chez un orthophoniste est coûteuse en terme de temps, d'argent et effort de déplassement </p>
 						  </div>
 						</div>
-						<p>6</p>
+						<p class="nb">6</p>
 						
 					</section>
 					<section>
@@ -204,89 +232,93 @@
 						<div class="image-row">
 							<div class="image-container">
 								<img src="https://i.pinimg.com/736x/fd/6d/f1/fd6df1536b373736cb8745088bd1f511.jpg" width="200" height="200">
-							    <p><small>Sollution gratuite</small></p>
+							    <p>Sollution gratuite</p>
 							</div>
 							<div class="image-container">
-								<img src="https://i.pinimg.com/736x/09/f2/93/09f2936973ce0f94e0b4622d3ae61927.jpg" width="300" height="200">
-							    <p><small>En ligne (pas de déplassement )</small></p>
+								<img src="https://i.pinimg.com/736x/09/f2/93/09f2936973ce0f94e0b4622d3ae61927.jpg" width="200" height="200">
+							    <p>En ligne (pas de déplassement )</p>
 							</div>
 							<div class="image-container">
-								<img src="https://i.pinimg.com/736x/92/4f/b1/924fb1e873c6157b59293e8f99b7e424.jpg" width="300" height="200">
-							    <p><small>Ouverte à tout le monde</small></p>
+								<img src="https://i.pinimg.com/736x/92/4f/b1/924fb1e873c6157b59293e8f99b7e424.jpg" width="200" height="200">
+							    <p>Ouverte à tout le monde</p>
 							</div>
 							<div class="image-container">
 								<img src="https://i.pinimg.com/736x/82/9b/fa/829bfa4a3a2d4f52958e81b98a4d7219.jpg" width="200" height="200">
-							    <p><small>Possibilité de rendez-vous en ligne avec un orthophoniste </small></p>
+							    <p>Possibilité de rendez-vous en ligne avec un orthophoniste </p>
 							</div>
 						  </div>
-						  <p>7</p>
+						  <p class="nb">7</p>
 					</section>
 					<section>
 						<p style="text-align: left;">2.4. Méthode adoptée</p>
-						<img src="https://pyxis-tech.com/app/uploads/2015/09/wp_wp_graf_scrum_200_fr.jpg">
+						<img src="https://pyxis-tech.com/app/uploads/2015/09/wp_wp_graf_scrum_200_fr.jpg" height="400">
 						<p><small>Product Backlog -> Sprint Planning -> Sprint -> Daily Scrum -> Sprint Review -> Sprint Retrospective</small></p>
-						<p>8</p>
+						<p class="nb">8</p>
 						
 					</section>
 				</section>
 				<!--Analyse et Conception-->
 				<section>
 					<section>
+						<div style="width: 200px; height: 200px;"></div>
 						<h2>3 Analyse et Conception</h2>
-						<p>9</p>
+						<div style="width: 200px; height: 300px;"></div>
+						<p class="nb">9</p>
 					</section>
 					<section>
 						<p style="text-align: left;">3.1. Besoins fonctionnels</p>
 						<div class="image-row">
 							<div class="image-container">
 								<img src="https://i.pinimg.com/736x/20/52/c5/2052c5c80703cf5b3cb2a2dfe3837a71.jpg" width="200" height="200">
-							    <p><small><strong>Patients :</strong> Passer des tests de dyslexie, consulter les résultats, prendre des rendez-vous et gérer leur profil.</small></p>
+							    <p><strong>Patients :</strong> Passer des tests de dyslexie, consulter les résultats, prendre des rendez-vous et gérer leur profil.</p>
 							</div>
 							<div class="image-container">
 								<img src="https://i.pinimg.com/736x/34/e5/44/34e5448070c60f47a86951ff17e0ae01.jpg" width="200" height="200">
-							    <p><small><strong>Orthophonistes :</strong>  Accepter les demandes de rendez-vous, insérer des liens pour les consultations en ligne, et consulter la liste de leurs patients et de leurs tests.</small></p>
+							    <p><strong>Orthophonistes :</strong>  Accepter les demandes de rendez-vous, insérer des liens pour les consultations en ligne, et consulter la liste de leurs patients et de leurs tests.</p>
 							</div>
 							<div class="image-container">
 								<img src="https://i.pinimg.com/736x/38/74/f5/3874f5567f86df8cc084b7b70b4c9560.jpg" width="200" height="200">
-							    <p><small><strong>Administrateur :</strong>  Créer des comptes pour les orthophonistes et accéder aux données globales du site : tests réalisés, patients inscrits et rendez-vous pris.</small></p>
+							    <p><strong>Administrateur :</strong>  Créer des comptes pour les orthophonistes et accéder aux données globales du site : tests réalisés, patients inscrits et rendez-vous pris.</p>
 							</div>
 							
 						  </div>
 						  
 						
-						<p>10</p>
+						<p class="nb">10</p>
 					</section>
 					<section>
 						<p style="text-align: left;">3.2. Besoins non fonctionnels</p>
 						<img src="/images/fonctionnels.png" width="500" height="500">
-						<p>11</p>
+						<p class="nb">11</p>
 					</section>
 					<section>
 						<p style="text-align: left; margin: 0;">3.3. Planification des sprints</p>
 						
 							<img src="https://i.pinimg.com/736x/0d/b5/96/0db5964b3f1c99523c0df4bd15614394.jpg"  height="500" style="margin: 0; ">
-							<p style="margin: 0;">12</p>
+							<p class="nb">12</p>
 						
 					</section>
 					
 					<section>
 						<p style="text-align: left; margin: 0;">3.4. Diagramme de cas d’utilisation global</p>
-						<img src="https://i.pinimg.com/736x/86/02/db/8602db9d757d91e2df238ab5de89ca24.jpg" width="700" height="600" style="margin: 0; ">
-						<p style="margin: 0; font-size: 20px;">13</p>
+						<img src="https://i.pinimg.com/736x/86/02/db/8602db9d757d91e2df238ab5de89ca24.jpg" width="700" height="590" style="margin: 0; ">
+						<p class="nb">13</p>
 						
 					</section>
 					<section>
 						<p style="text-align: left;">3.5. Diagramme de classes global</p>
-						<img src="/images/PFE-d.classes.drawio.png" width="700" height="600">
-						<p>14</p>
+						<img src="https://i.pinimg.com/736x/e0/29/ab/e029ab37bd831d3cbe0587eb5ef7f79c.jpg" width="700" height="500">
+						<p class="nb">14</p>
 						
 					</section>
 				</section>
 				<!--Réalisation-->
 				<section>
 					<section>
+						<div style="width: 200px; height: 200px;"></div>
 						<h2>4 Réalisation</h2>
-						<p>15</p>
+						<div style="width: 200px; height: 300px;"></div>
+						<p class="nb">15</p>
 					</section>
 					<section>
 						<p style="text-align: left;">4.1. Environnements de réalisation</p>
@@ -310,18 +342,19 @@
 					</section>
 					<section>
 						<p style="text-align: left;">4.2. Architecture</p>
-						<p>17</p>
+						<img src="https://i.pinimg.com/736x/d7/24/8d/d7248ddf30b4573a0021d3110cdef4f4.jpg" width="900" >
+						<p class="nb">17</p>
 						
 					</section>
 					<section>
 						<p style="text-align: left;">4.3. Partie Intelligence Artificielle</p>
 						
-						<p>18</p>
+						<p class="nb">18</p>
 						
 					</section>
 					<section>
 						<p style="text-align: left;">4.4. Démonstration</p>
-						<p>19</p>
+						<p class="nb">19</p>
 						
 					</section>
 					
@@ -329,56 +362,60 @@
 				<!--Conclusion et Perspectives-->
 				<section>
 					<section>
+						<div style="width: 200px; height: 200px;"></div>
 						<h2>5 Conclusion ET Perspectives</h2>
-						<p>20</p>
+						<div style="width: 200px; height: 300px;"></div>
+						<p class="nb">20</p>
 					</section>
 					<section>
 						<p style="text-align: left;">5.1. Conclusion</p>
 						<div class="image-row">
 							<div class="image-container">
 								<img src="https://i.pinimg.com/736x/1c/d1/a8/1cd1a88b0957bc970a7076bb3de375f5.jpg" width="200" height="200">
-							    <p><small><strong>Objectif atteint :</strong>  Création d'une application web efficace pour le dépistage de la dyslexie, avec un modèle IA performant et une API intégrée.</small></p>
+							    <p><strong>Objectif atteint :</strong>  Création d'une application web efficace pour le dépistage de la dyslexie, avec un modèle IA performant et une API intégrée.</p>
 							</div>
 							<div class="image-container">
 								<img src="https://i.pinimg.com/736x/27/79/c9/2779c9af821c1bc631546301653ab909.jpg" width="200" height="200">
-							    <p><small><strong>Collecte et traitement des données :</strong>   Utilisation de 100 réponses collectées pour entraîner le modèle IA, démontrant une précision satisfaisante dans les tests.</small></p>
+							    <p><strong>Collecte et traitement des données :</strong>   Utilisation de 100 réponses collectées pour entraîner le modèle IA, démontrant une précision satisfaisante dans les tests.</p>
 							</div>
 							<div class="image-container">
 								<img src="https://i.pinimg.com/736x/40/b7/dd/40b7dd47f21263feb590970fc9dfaeda.jpg" width="200" height="200">
-							    <p><small><strong>Utilité pratique :</strong>   Outil intuitif et précieux pour les orthophonistes et les parents, facilitant la gestion des tests et des résultats.</small></p>
+							    <p><strong>Utilité pratique :</strong>   Outil intuitif et précieux pour les orthophonistes et les parents, facilitant la gestion des tests et des résultats.</p>
 							</div>
 							
 						  </div>
-						<p>21</p>
+						<p class="nb">21</p>
 					</section>
 					<section>
 						<p style="text-align: left;">5.2. Perspectives</p>
 						<div class="image-row">
 							<div class="image-container">
 								<img src="https://i.pinimg.com/736x/c0/4d/83/c04d832dbfd552f488512e3ea8b47eb4.jpg" width="200" height="200">
-							    <p><small><strong>Améliorer le modèle IA :</strong>  Enrichir la base de données avec plus de réponses pour augmenter la précision du modèle. </small></p>
+							    <p><strong>Améliorer le modèle IA :</strong>  Enrichir la base de données avec plus de réponses pour augmenter la précision du modèle. </p>
 							</div>
 							<div class="image-container">
 								<img src="https://i.pinimg.com/736x/c0/90/8c/c0908cd3cf13fa6cc7f701e8a71aa3ab.jpg" width="200" height="200">
-							    <p><small><strong>Collaborer avec les enseignants :</strong>  Impliquer les enseignants pour obtenir des retours et affiner les questions du test.  </small></p>
+							    <p><strong>Collaborer avec les enseignants :</strong>  Impliquer les enseignants pour obtenir des retours et affiner les questions du test.  </p>
 							</div>
 							<div class="image-container">
 								<img src="https://i.pinimg.com/736x/ba/ac/0f/baac0f529d2135127c297629287e4312.jpg" width="200" height="200">
-							    <p><small><strong>Ajouter d'autres variétés de tests :</strong>  Intégrer des tests supplémentaires pour diagnostiquer d'autres troubles d'apprentissage  </small></p>
+							    <p><strong>Ajouter d'autres variétés de tests :</strong>  Intégrer des tests supplémentaires pour diagnostiquer d'autres troubles d'apprentissage  </p>
 							</div>
 							
 						  </div>
-						<p>22</p>
+						<p class="nb">22</p>
 					</section>
 				</section>
 
 				<!--Merci-->
 				<section >
+					<div style="width: 200px; height: 200px;"></div>
 					<h1 style="text-align: left;">Merci</h1>
 					<p style="text-align: left;">
 						<small>pour votre attention</small>
 					</p>
-					<p>23</p>
+					<div style="width: 200px; height: 200px;"></div>
+					<p class="nb">23</p>
 				</section>
 				
 			</div>
